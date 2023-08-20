@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login To Paycheck</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/login.css" />
+    <script type="module" src="./js/login.js"></script>
+  </head>
+  <body>
+    <header><h1>Login</h1></header>
+    <main>
+      <form action="post">
+        <label for="user">Username</label>
+        <section class="username">
+          <img src="./img/icons/user.PNG" alt="user" />
+          <input
+            type="text"
+            name="user"
+            id="user"
+            placeholder="Type your username"
+            autocomplete="off" />
+        </section>
+        <label for="password">Password</label>
+        <section class="password">
+          <img src="./img/icons/lock.PNG" alt="password" />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Type your password"
+            autocomplete="off" />
+          <button type="button" id="showbtn" class="showbtn">
+            <img id="show" src="./img/icons/see.PNG" alt="show" />
+          </button>
+        </section>
+        <a href="./reset.html">Forgot password?</a>
+        <button type="submit" class="submit">Login</button>
+      </form>
+    </main>
+    <aside>
+      <p>or sign up using</p>
+      <section>
+        <img src="./img/icons/facebook.PNG" alt="facebook" /><img
+          src="./img/icons/twitter.PNG"
+          alt="twitter" /><img src="./img/icons/gmail.PNG" alt="gmail" />
+      </section>
+    </aside>
+    <footer>
+      <p>or sign up using</p>
+      <img src="./img/icons/mail.PNG" alt="email" />
+    </footer>
+  </body>
+</html>

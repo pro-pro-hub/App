@@ -1,0 +1,123 @@
+body {
+  flex-direction: column;
+  justify-content: unset;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 10px;
+  gap: 40px;
+  position: relative;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px 0;
+}
+header h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+header img {
+  width: 56px;
+  border-radius: 50%;
+}
+main img,
+footer img {
+  width: 25px;
+}
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+button img {
+  width: 20px;
+}
+main button span,
+p {
+  font-size: 1.6rem;
+}
+.balance {
+  text-align: center;
+}
+.balance h1 {
+  font-size: 4.2rem;
+  font-weight: 900;
+}
+.funds {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.funds button {
+  background-color: #d1fe37;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+.funds button:first-child {
+  gap: 10px;
+}
+.funds button:first-child img {
+  width: 20px;
+}
+.funds button:last-child img {
+  transform: rotate(-50deg);
+  margin-top: -5px;
+}
+.funds button span {
+  font-weight: 700;
+  white-space: nowrap;
+}
+.next {
+  width: 15px;
+}
+.others {
+  margin: 10px 0 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+  max-height: 52%;
+  overflow: scroll;
+}
+.others::-webkit-scrollbar {
+  display: none;
+}
+.others button {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: rgb(231, 231, 231);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.others button span {
+  width: 80%;
+  text-align: left;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #d1fe37;
+  padding: 30px 20px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+footer img {
+  height: 25px;
+  width: auto;
+}
+@media screen and (min-height: 800px) {
+  .others {
+    max-height: unset;
+  }
+}

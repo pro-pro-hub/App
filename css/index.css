@@ -1,0 +1,27 @@
+body {
+  display: block;
+}
+main {
+  background-image: url(/img/paycheck1.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding-bottom: 50px;
+  height: 100%;
+}
+button {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  gap: 15px;
+  border-radius: 10px;
+  width: 80%;
+  padding: 20px 0;
+}
+span {
+  font-size: 2.5rem;
+  color: white;
+}

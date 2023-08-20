@@ -1,0 +1,128 @@
+body {
+  flex-direction: column;
+  justify-content: unset;
+  align-items: unset;
+  padding: 10px;
+  gap: 30px;
+  position: relative;
+}
+button img {
+  width: 20px;
+}
+button {
+  background: none;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header button img:first-child {
+  transform: scaleX(-1);
+}
+header button:last-child img {
+  width: 25px;
+}
+main {
+  padding: 20px 0;
+  background-color: rgba(211, 211, 211, 0.123);
+}
+main h2 {
+  font-size: 2.3rem;
+}
+main h1 {
+  font-size: 4.2rem;
+  font-weight: 900;
+}
+main section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+main section article {
+  display: flex;
+  gap: 15px;
+}
+main section article span {
+  text-transform: uppercase;
+  font-size: 2rem;
+  cursor: pointer;
+}
+aside {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+aside article {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 70%;
+  text-align: left;
+}
+aside article input {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+aside article p {
+  font-size: 1.6rem;
+  color: lightgray;
+  text-transform: capitalize;
+}
+aside img:first-child {
+  width: 65px;
+  height: auto;
+  border-radius: 50%;
+}
+aside img:last-child {
+  cursor: pointer;
+  width: 30px;
+}
+.send {
+  background-color: #d1fe37;
+  border-radius: 10px;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.send p {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  position: absolute;
+  padding: 15px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+footer button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 5px 0;
+}
+footer button:active {
+  transform: unset;
+  border-radius: 10px;
+  background-color: lightgrey;
+}
+footer img {
+  width: 18px;
+}
+.choice {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}

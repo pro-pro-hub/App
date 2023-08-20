@@ -1,0 +1,92 @@
+body {
+  flex-direction: column;
+  padding: 50px;
+  gap: 50px;
+  font-size: 1.8rem;
+  position: relative;
+}
+main {
+  background-color: white;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+.username img {
+  width: 14px;
+}
+.password img {
+  width: 20px;
+}
+.username,
+.password {
+  display: flex;
+  gap: 10px;
+  border-bottom: 1px solid black;
+  padding: 10px 0;
+}
+.username {
+  margin-bottom: 20px;
+}
+.password {
+  margin-bottom: 10px;
+}
+.showbtn {
+  background: none;
+}
+.showbtn img {
+  display: none;
+}
+input {
+  font-size: 2rem;
+}
+a:any-link {
+  display: block;
+  color: black;
+  text-decoration: none;
+  text-align: right;
+}
+a:hover {
+  text-decoration: underline;
+}
+.submit {
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+  background-color: #d1fe37;
+  border-radius: 10px;
+  padding: 20px 0;
+  font-size: 2rem;
+}
+aside,
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-transform: capitalize;
+}
+aside img,
+footer img {
+  width: 42px;
+}
+aside section {
+  display: flex;
+  gap: 10px;
+}
+.errmsg,
+.successmsg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  padding: 5px 10px;
+}
+.errmsg {
+  background-color: lightcoral;
+}
+.successmsg {
+  background-color: #d1fe37;
+}

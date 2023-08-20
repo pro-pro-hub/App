@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Send Funds</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/inter.css" />
+  </head>
+  <body>
+    <header>
+      <button id="back"><img src="./img/icons/next.PNG" alt="back" /></button>
+      <button id="notifications">
+        <img src="./img/icons/notification-red.PNG" alt="notifications" />
+      </button>
+    </header>
+    <main>
+      <h2>Transfer</h2>
+      <section>
+        <h1>$<span class="amount">0.00</span></h1>
+        <article id="currency">
+          <span>btc</span><span>usd</span><span>eth</span>
+        </article>
+      </section>
+    </main>
+    <aside>
+      <img src="./img/second-person.PNG" alt="user" />
+      <article>
+        <input type="text" id="reciever" value="Dami Lee" autocomplete="off" />
+        <p id="account-type"></p>
+      </article>
+      <img src="./img/icons/edit.PNG" alt="write" />
+    </aside>
+    <button class="send">
+      <p>
+        Send $<span class="amount">0.00</span> to
+        <span class="reciever">Dami Lee</span>
+      </p>
+      <img src="./img/icons/next.PNG" alt="send" />
+    </button>
+    <footer>
+      <button class="input-num">1</button>
+      <button class="input-num">2</button>
+      <button class="input-num">3</button>
+      <button class="input-num">4</button>
+      <button class="input-num">5</button>
+      <button class="input-num">6</button>
+      <button class="input-num">7</button>
+      <button class="input-num">8</button>
+      <button class="input-num">9</button>
+      <p></p>
+      <button class="input-num">0</button>
+      <button id="remove">
+        <img src="./img/icons/cancel.png" alt="delete" />
+      </button>
+    </footer>
+    <script type="module" src="./js/inter.js"></script>
+  </body>
+</html>
